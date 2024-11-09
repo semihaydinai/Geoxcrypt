@@ -4,11 +4,11 @@ import os
 from opencage.geocoder import OpenCageGeocode
 
 # OpenCage API anahtarınızı buraya yazın
-API_KEY = '202d39d7a236467d90d6c115a7b67079'
+API_KEY = 'YOUR_OPENCAGE_API_KEY'
 geocoder = OpenCageGeocode(API_KEY)
 
 # Excel dosyasını yükleyin
-data = pd.read_excel("united states.xlsx")  # Dosya adını burada güncelleyin
+data = pd.read_excel("your_excel_file.xlsx")  # Dosya adını burada güncelleyin
 
 # 'Country', 'Region' ve 'County/City' sütunlarını ekleyin ve boş bırakın
 data['Country'] = None
