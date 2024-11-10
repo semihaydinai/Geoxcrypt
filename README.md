@@ -23,13 +23,13 @@ Dit script verrijkt een Excel-bestand met informatie over land, regio en county/
    git clone <repository-url>
    cd <repository-directory>
 
-#Install the required Python packages:
+# Install the required Python packages:
 
 De benodigde Python-pakketten installeren:
 
 pip install -r requirements.txt
 
-#Setup / Instellen
+# Setup / Instellen
 
 Open the script file and replace 'YOUR_OPENCAGE_API_KEY' with your actual OpenCage API key.
 
@@ -41,7 +41,7 @@ Plaats het invoer-Excel-bestand in de projectmap en werk de bestandsnaam in het 
 
 data = pd.read_excel("your_excel_file.xlsx")  # Update file name here / Werk bestandsnaam hier bij
 
-#Usage / Gebruik
+# Usage / Gebruik
 Run the script to add country, region, and county/city information to each row based on the coordinates in the Cell Location column.
 
 Voer het script uit om land-, regio- en county/stad-informatie toe te voegen aan elke rij op basis van de coördinaten in de kolom Cell Location.
@@ -52,12 +52,12 @@ The script will automatically save the updated file with a unique name if a file
 
 Het script slaat het bijgewerkte bestand automatisch op met een unieke naam als er al een bestand met dezelfde naam bestaat.
 
-#Output / Resultaat
+# Output / Resultaat
 The updated Excel file will contain three new columns: Country, Region, and County/City.
 
 Het bijgewerkte Excel-bestand bevat drie nieuwe kolommen: Country, Region en County/City.
 
-#Notes / Opmerkingen
+# Notes / Opmerkingen
 Make sure your input data includes a Cell Location column with JSON data for latitude and longitude.
 
 Zorg ervoor dat je invoergegevens een kolom Cell Location bevatten met JSON-gegevens voor breedte- en lengtegraad.
