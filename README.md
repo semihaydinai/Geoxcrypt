@@ -69,5 +69,3 @@ Zorg ervoor dat je een actieve OpenCage API-sleutel hebt met voldoende verzoeken
 
 ---
 
-These files should help your colleagues install dependencies, configure the script, and run it with ease. Let me know if there’s anything else you need!
-
